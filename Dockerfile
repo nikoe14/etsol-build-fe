@@ -8,6 +8,7 @@ MAINTAINER Nicolás Espejo <nicolasgermanespejo@gmail.com>
 
 RUN npm install -g bower
 RUN npm install -g grunt
+RUN echo hola
 
 #Entrypoint
 ADD entrypoint.sh /entrypoint.sh
